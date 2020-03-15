@@ -1,0 +1,29 @@
+.card-image img{
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 230px;
+    margin: 20px 10px;
+}
+
+.card:hover{
+    box-shadow: 1px 2px 6px 5px #cdcdcd;
+        transform: translateX(-2px) translateY(-6px);
+        cursor: pointer;
+        /* transform: skewY(-8deg); */
+
+}
+
+.card-image{
+    padding: 10px;
+}
+
+.card-footer{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #f5deb3;
+    background-image: linear-gradient(to right bottom, #ef5350, #f06257, #f06f5e, #f17b66, #f1876f);
+}

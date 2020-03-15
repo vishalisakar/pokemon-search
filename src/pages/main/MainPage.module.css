@@ -1,0 +1,14 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    position: relative;
+  }
+  
+  .gridContainer > .header {
+    grid-row: 1;
+  }
+  
+  .gridContainer > .pages {
+    grid-row: 2;
+  }
